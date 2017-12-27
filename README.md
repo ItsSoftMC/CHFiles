@@ -1,6 +1,6 @@
 CHFiles is a CommandHelper extension that allows you to work with files and directory and interact with them from whithin your server.
 
-Latest release: [v2.1.2](https://github.com/itstake/CHFiles/releases/tag/v2.1.2)
+Latest release: [v2.1.v](https://github.com/SoftMC/CHFiles/releases/tag/v2.1.4)
 
 # Functions:
 
