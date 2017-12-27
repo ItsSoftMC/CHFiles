@@ -1,4 +1,4 @@
-CHFiles is a CommandHelper extension that allows you to work with files and directory and interact with them from whithin your server.
+CHFiles is a CommandHelper extension that allows you to work with files and directory and interact with them from within your server.
 
 Latest release: [v2.1.4v](https://github.com/ItsSoftMC/CHFiles/releases/tag/v2.1.4)
 
