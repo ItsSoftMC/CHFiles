@@ -52,10 +52,9 @@ public class write_file extends AbstractFunction {
                 throw new CREIOException(loc.getAbsolutePath() + "Doesn't exists", t);
             }
             if (args.length == 3 && args[2].val().toUpperCase().equals("OVERWRITE")) {
-                FileUtil.write(loc, false, args[1].val());
+                FileUtil.write(args[1].getValue().toString(), loc, 0);
             } else {
-                FileUtil.write(loc, true, args[1].val());
-            }
+                FileUtil.write(args[1].getValue().toString(), loc, 1);
 
             return CVoid.VOID;
         } catch (IOException e) {
